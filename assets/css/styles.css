@@ -160,7 +160,56 @@ a {
     margin-top: 2rem;
   }
 }
+#why {
+  padding: 0 8vw;
+  text-align: center;
+}
 
+#why .why-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1rem;
+  margin: 50px 0;
+}
+
+.why1 img {
+  /* height: 12rem;
+  width: 12rem; */
+  object-fit: cover;
+}
+
+.why1 {
+  background: var(--first-color-lighten);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 30px 10px;
+  border-radius: 10px;
+}
+
+.why1 h5 {
+  padding-top: 0.5rem;
+  font-size: var(--normal-font-size);
+  font-weight: 900;
+}
+
+.why1 h6 {
+  padding-top: 0.5rem;
+  font-size: var(--small-font-size);
+  font-weight: 500;
+}
+
+.why1 p {
+  padding-top: 0.5rem;
+  font-size: var(--smaller-font-size);
+  font-weight: 500;
+}
+
+@media (max-width: 1229px) {
+  #why {
+    margin-top: 2rem;
+  }
+}
 /*=============== About department styles ===============*/
 
 .aboutuscontainer {
@@ -169,7 +218,11 @@ a {
   display: grid;
   place-items: center;
 }
-
+.whycontainer {
+  margin-top: 7rem;
+  width: 100%;
+  min-height: 100vh;
+}
 .row {
   margin-top: 3rem;
   width: 80%;
@@ -223,6 +276,7 @@ a {
   padding-left: 30px;
 }
 
+.whycontainer span.textWrapper,
 .row .contentWrapper span.textWrapper {
   display: block;
   color: var(--title-color);
@@ -242,7 +296,13 @@ a {
   width: 70px;
   height: 5px;
 }
-
+.whycontainer span.textWrapper .dash {
+  margin-left: 80px;
+  display: inline-block;
+  background: #383f47;
+  width: 70px;
+  height: 5px;
+}
 .row .contentWrapper h2 {
   font-size: var(--title-font-size);
   color: var(--title-color);
@@ -479,7 +539,7 @@ a {
 
 .timetablesection {
   display: grid;
-  margin: 4rem 4rem;
+  margin: 7rem 4rem;
   margin-bottom: 8rem;
   place-items: center;
 }

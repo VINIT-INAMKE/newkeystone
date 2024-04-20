@@ -87,11 +87,7 @@ class OutHeader extends HTMLElement {
                         >Admission Procedure</a
                       >
                     </li>
-                  <li>
-                    <a href="./admission/enquiry.html" class="dropdown__link"
-                      >Admission Enquiry</a
-                    >
-                  </li>
+                
                   <li>
                     <a href="./admission/notice.html" class="dropdown__link"
                       >Admission Notice</a
@@ -530,11 +526,7 @@ class InHeader extends HTMLElement {
                         >Admission Procedure</a
                       >
                     </li>
-                  <li>
-                    <a href="../admission/enquiry.html" class="dropdown__link"
-                      >Admission Enquiry</a
-                    >
-                  </li>
+                 
                   <li>
                     <a href="../admission/notice.html" class="dropdown__link"
                       >Admission Notice</a
