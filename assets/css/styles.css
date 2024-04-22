@@ -357,7 +357,7 @@ a {
 
 .hodrow .hodimgWrapper img:hover {
   border-radius: 20px;
-  transform: scale(1.25);
+  transform: scale(1.05);
 }
 
 .hodrow .hodcontentWrapper {
@@ -454,7 +454,7 @@ a {
 
 .key-hodrow .hodimgWrapper img:hover {
   border-radius: 20px;
-  transform: scale(1.25);
+  transform: scale(1.05);
 }
 
 .key-hodrow .hodcontentWrapper {
@@ -940,7 +940,7 @@ a {
 
 .assrow .assimgWrapper img:hover {
   border-radius: 20px;
-  transform: scale(1.25);
+  transform: scale(1.05);
 }
 
 .assrow .asscontentWrapper {
