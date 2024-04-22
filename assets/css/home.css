@@ -8,14 +8,30 @@
   width: 100%;
   color: var(--first-color-lighten);
 }
-
-.homewrapper .homeslide {
+.homeimageslider1 {
+  margin-top: 5rem;
+  height: 100vh;
+  width: 100%;
+  color: var(--first-color-lighten);
+}
+.homeimageslider2 {
+  margin-top: 8rem;
+  height: 50vh;
+  width: 95%;
+  color: var(--first-color-lighten);
+  border-radius: 20px;
+}
+.homewrapper .homeslide,
+.homewrapper .homeslide1,
+.homewrapper .homeslide2 {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-.homeslide {
+.homeslide,
+.homeslide1,
+.homeslide2 {
   overflow: hidden;
 }
 
@@ -24,17 +40,45 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  /* background-color: rgba(0, 0, 0, 0.1); */
   z-index: 10;
 }
 
-.homeslide .homeimage {
-  height: 80vh;
+.homeslide1::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.641);
+  z-index: 10;
+}
+.homeslide2::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.633);
+  z-index: 10;
+}
+
+.homeslide .homeimage,
+.homeslide1 .homeimage,
+.homeslide2 .homeimage {
+  height: 100%;
   width: 100%;
   object-fit: cover;
 }
-
-.homeslide .image-data {
+.programme .clubimg:hover,
+.homeslide2:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+.programme .clubimg,
+.homeslide2 {
+  transition: all 0.5s;
+}
+.homeslide .image-data,
+.homeslide1 .image-data,
+.homeslide2 .image-data {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -63,6 +107,7 @@
   z-index: 11;
   color: #fff;
   letter-spacing: 1px;
+  text-shadow: -5px 1px 5px rgba(0, 0, 0, 0.61);
 }
 
 .homeimageslider .swiper-pagination-bullet {
@@ -125,8 +170,7 @@
 #programmes {
   margin-top: 2vw;
   margin-bottom: 2vw;
-  background-color: var(--first-color-lighten)
-
+  background-color: var(--first-color-lighten);
   padding: 3.5rem;
 }
 
