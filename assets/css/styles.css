@@ -2093,7 +2093,7 @@ a {
 
 .gallery .controls .buttons{
     height:40px;
-    width: 140px;
+    width: 100%;
     background:#fff;
     color:#666;
     font-size: 20px;
