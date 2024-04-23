@@ -132,7 +132,7 @@ a {
 .nav__toggle-close {
   opacity: 0;
 }
-@media screen and (max-width: 1240px) {
+@media screen and (max-width: 1458px) {
   .nav__menu {
     background-color: var(--body-color);
     position: absolute;
@@ -267,7 +267,7 @@ a {
 }
 
 /* For large devices */
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1458px) {
   /* Nav */
   .nav {
     height: calc(var(--header-height) + 2rem);
@@ -279,7 +279,7 @@ a {
   }
   .nav__list {
     display: flex;
-    column-gap: 3rem;
+    column-gap: 1.5rem;
     height: 100%;
   }
   .nav li {

@@ -1503,7 +1503,15 @@ a {
   align-items: center;
   justify-content: center;
 }
+.keypersonsButton3 {
+  border: none;
 
+  appearance: none;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .hodcontent .keypersonsButton2 {
   border: none;
   cursor: pointer;
@@ -1528,6 +1536,14 @@ a {
   border-radius: 25px;
   width: 150px;
   height: 150px;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto;
+}
+.keypersonsButton3 img {
+  border-radius: 25px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   display: block;
   margin: 20px auto;
@@ -2139,5 +2155,5 @@ a {
 }
 
 .gallery .galimage-container .galimage:hover img {
-  transform: scale(1.4);
+  transform: scale(1.2);
 }

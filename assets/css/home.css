@@ -463,7 +463,8 @@
 }
 
 @media (max-width: 450px) {
-  #programmes h1#prog-title {
+  #programmes h1#prog-title,
+  .gallery h1#prog-title {
     font-size: 8vmin;
   }
 
@@ -502,11 +503,8 @@
     margin: 30px 0;
   }
 
-  #programmes h1#prog-title {
-    font-size: 6vmin;
-  }
-
-  #programmes h1#prog-title {
+  #programmes h1#prog-title,
+  .gallery h1#prog-title {
     font-size: 6vmin;
   }
 
