@@ -2092,17 +2092,21 @@ a {
 }
 
 .gallery .controls .buttons{
-    height:40px;
-    width: 100%;
-    background:#fff;
-    color:#666;
+    height: 40px;
+    width: max-content;
+    background: #fff;
+    padding: 15px;
+    padding-top: 10px;
+    border-radius: 20px;
+    color: #666;
     font-size: 20px;
-    line-height: 40px;
+    /* line-height: 40px; */
     cursor: pointer;
-    margin:20px;
-    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+    margin: 20px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
     text-align: center;
 }
+
 
 .gallery .controls .buttons.active{
     background:coral;
