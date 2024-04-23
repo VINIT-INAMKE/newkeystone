@@ -13,19 +13,62 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+    />
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="../assets/css/header.css" />
-    <link rel="stylesheet" href="../assets/css/home.css" />
-    <link rel="stylesheet" href="../assets/css/styles.css" />
     <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../assets/css/home.css" />
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
 
     <link
       rel="icon"
       href="https://media.discordapp.net/attachments/851837926496796694/1229814106828181654/keystone_logo.png?ex=66310ca3&is=661e97a3&hm=9946e263d94d7ff17492c84153f41643bbd3e95a06fdc7041db2e70c5bb5964a&=&format=webp&quality=lossless"
     />
+    <style>
+      /* html,
+      body {
+        height: 100%;
+      } */
+
+      /* body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      } */
+
+      .gallery .mySwiper2 {
+        width: 90%;
+        height: 55vh;
+      }
+
+      .gallery .mySwiper2 .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+      }
+
+      .gallery .mySwiper2 .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: center;
+        border-radius: 20px;
+      }
+    </style>
     <title>Keystone School of Engineering</title>
   </head>
+
   <body>
     <!--=============== HEADER ===============-->
     <header class="header">
@@ -40,81 +83,124 @@
 
       <div class="swiper-pagination"></div>
     </section>
-    <div class="ass-container">
-      <section class="ass-about" id="about-ass">
-        <div class="asscontainer">
-          <div class="assrow">
-            <div class="asscontentWrapper">
-              <div class="asscontent">
-                <section class="photo-container">
-                  <h1 id="pho-title">AI & ML Club</h1>
-                  <div class="pho-container">
-                    <div class="photo-gallery">
-                      <div class="pho-column">
-                        <div class="photo">
-                          <img src="../images/aimlclub1.png" alt="" />
-                        </div>
-                      </div>
 
-                      <div class="pho-column">
-                        <div class="photo">
-                          <img
-                            src="../images/aiml.png"
-                            style="height: 250px"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div class="pho-column">
-                        <div class="photo">
-                          <img src="../images/aimlclub2.png" alt="" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-                <h2 style="font-weight: 900; font-size: 1.2rem">
-                  Guest:
-                  <span style="font-weight: 700">
-                    Mr.Yogesh Murumkar Bharat, Soft Solution, Pune.
-                  </span>
-                </h2>
-                <h3 style="color: var(--title-color); margin-bottom: 10px">
-                  Description:
-                </h3>
+    <div class="clubcontainer">
+      <div class="row">
+        <div class="contentWrapper">
+          <div class="content">
+            <span class="textWrapper">
+              <span class="dash"></span>AI & ML Club
+            </span>
+            <h3 style="color: var(--title-color); margin-bottom: 10px">
+              Description:
+            </h3>
 
-                <ul>
-                  <li>
-                    Emphasize the importance of acquiring AI and ML skills for
-                    future engineering professionals.
-                  </li>
-                  <li>
-                    Provide resources and learning pathways for students to
-                    develop proficiency in AI and ML, including online courses,
-                    workshops, and project-based learning opportunities.
-                  </li>
-                  <li>
-                    Encourage students to explore interdisciplinary
-                    collaborations and apply AI and ML techniques to solve
-                    real-world engineering problem. Artificial Intelligence and
-                    Machine Learning are reshaping the landscape of engineering
-                    by enabling smarter, more efficient, and innovative
-                    solutions. Engineering students who grasp the principles and
-                    applications of AI and ML will be well-equipped to tackle
-                    the challenges and opportunities of the future.
-                  </li>
-                </ul>
-              </div>
-            </div>
+            <ul>
+              <li>
+                Emphasize the importance of acquiring AI and ML skills for
+                future engineering professionals.
+              </li>
+              <li>
+                Provide resources and learning pathways for students to develop
+                proficiency in AI and ML, including online courses, workshops,
+                and project-based learning opportunities.
+              </li>
+              <li>
+                Encourage students to explore interdisciplinary collaborations
+                and apply AI and ML techniques to solve real-world engineering
+                problem. Artificial Intelligence and Machine Learning are
+                reshaping the landscape of engineering by enabling smarter, more
+                efficient, and innovative solutions. Engineering students who
+                grasp the principles and applications of AI and ML will be
+                well-equipped to tackle the challenges and opportunities of the
+                future.
+              </li>
+            </ul>
+
+            <br /><br />
           </div>
         </div>
-      </section>
+      </div>
     </div>
 
+    <div class="gallery">
+      <h1 id="prog-title">AI & ML Club Gallery</h1>
+      <div class="swiper mySwiper2">
+        <div class="swiper-wrapper">
+          <!-- <div class="swiper-slide">
+            <a href="../images/aiml.png" class="galimage webdev">
+              <img src="../images/aiml.png" alt="" />
+            </a>
+          </div> -->
+          <div class="swiper-slide">
+            <a href="../images/aimlclub1.png" class="galimage webdev">
+              <img src="../images/aimlclub1.png" alt="" />
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="../images/aimlclub2.png" class="galimage webdev">
+              <img src="../images/aimlclub2.png" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
     <inn-footer></inn-footer>
 
     <!--=============== SWIPER JS ===============-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../assets/js/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script>
+      var swiper2 = new Swiper(".mySwiper2", {
+        autoHeight: true,
+        spaceBetween: 30,
+        speed: 1200,
+        loop: true,
+        freeMode: true,
+        autoplay: {
+          delay: 1500,
+          disableOnInteraction: false,
+        },
+
+        breakpoints: {
+          600: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+        },
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $(".buttons").click(function () {
+          $(this).addClass("active").siblings().removeClass("active");
+
+          var filter = $(this).attr("data-filter");
+
+          if (filter == "all") {
+            $(".galimage").show(400);
+          } else {
+            $(".galimage")
+              .not("." + filter)
+              .hide(200);
+            $(".galimage")
+              .filter("." + filter)
+              .show(400);
+          }
+        });
+
+        $(".gallery").magnificPopup({
+          delegate: "a",
+          type: "image",
+          gallery: {
+            enabled: true,
+          },
+        });
+      });
+    </script>
+
     <!--=============== MAIN JS ===============-->
     <script src="../assets/js/components.js"></script>
     <script src="../assets/js/main.js"></script>

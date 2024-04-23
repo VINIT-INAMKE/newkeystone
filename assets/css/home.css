@@ -72,6 +72,25 @@
   transform: scale(1.05);
   transition: all 0.3s;
 }
+@media (max-width: 854px) {
+  .homeimageslider2 {
+    margin-top: 8rem;
+    height: 30vh;
+    width: 95%;
+    color: var(--first-color-lighten);
+    border-radius: 20px;
+  }
+}
+@media (max-width: 494px) {
+  .homeimageslider2 {
+    margin-top: 8rem;
+    height: 20vh;
+    width: 95%;
+    color: var(--first-color-lighten);
+    border-radius: 20px;
+  }
+}
+
 .programme .clubimg,
 .homeslide2 {
   transition: all 0.5s;
@@ -174,10 +193,12 @@
   padding: 3.5rem;
 }
 
-#programmes h1#prog-title {
+#programmes h1#prog-title,
+.gallery h1#prog-title {
   font-size: 4vmin;
   text-align: center;
   color: var(--title-color);
+  margin-bottom: 30px;
 }
 
 #programmes .programmes-box {

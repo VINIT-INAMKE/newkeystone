@@ -10,6 +10,14 @@
       rel="stylesheet"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"
+    />
     <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css" />
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="../assets/css/header.css" />
@@ -187,11 +195,85 @@
         </div>
       </div>
     </section>
+    <div class="gallery">
+      <h1 id="prog-title">Our Club Gallery</h1>
+      <ul class="controls">
+        <li class="buttons active" data-filter="all">all</li>
+        <li class="buttons" data-filter="photography">Photography</li>
+        <li class="buttons" data-filter="aiml">AI & ML</li>
+        <li class="buttons" data-filter="nogas">No-Gas Cooking</li>
+        <li class="buttons" data-filter="webdev">Web Development</li>
+      </ul>
+
+      <div class="galimage-container">
+        <a href="../Photography club/7.jpg" class="galimage photography">
+          <img src="../Photography club/7.jpg" alt="" />
+        </a>
+
+        <a href="../Photography club/6.jpg" class="galimage photography">
+          <img src="../Photography club/6.jpg" alt="" />
+        </a>
+        <a href="../Photography club/1.jpg" class="galimage photography">
+          <img src="../Photography club/1.jpg" alt="" />
+        </a>
+        <a href="../Photography club/2.jpg" class="galimage photography">
+          <img src="../Photography club/2.jpg" alt="" />
+        </a>
+        <a href="../Photography club/3.jpg" class="galimage photography">
+          <img src="../Photography club/3.jpg" alt="" />
+        </a>
+
+        <a href="../Photography club/4.jpg" class="galimage photography">
+          <img src="../Photography club/4.jpg" alt="" />
+        </a>
+        <a href="../Photography club/5.jpg" class="galimage photography">
+          <img src="../Photography club/5.jpg" alt="" />
+        </a>
+
+        <a href="../images/aiml.png" class="galimage aiml">
+          <img src="../images/aiml.png" alt="" />
+        </a>
+        <a href="../images/aimlclub1.png" class="galimage aiml">
+          <img src="../images/aimlclub1.png" alt="" />
+        </a>
+        <a href="../images/aimlclub2.png" class="galimage aiml">
+          <img src="../images/aimlclub2.png" alt="" />
+        </a>
+
+        <a href="../nogascooking/1.jpg" class="galimage nogas">
+          <img src="../nogascooking/1.jpg" alt="" />
+        </a>
+        <a href="../nogascooking/2.jpg" class="galimage nogas">
+          <img src="../nogascooking/2.jpg" alt="" />
+        </a>
+        <a href="../nogascooking/3.jpg" class="galimage nogas">
+          <img src="../nogascooking/3.jpg" alt="" />
+        </a>
+        <a href="../nogascooking/4.jpg" class="galimage nogas">
+          <img src="../nogascooking/4.jpg" alt="" />
+        </a>
+        <a href="../WebDev CLub/1.jpeg" class="galimage webdev">
+          <img src="../WebDev CLub/1.jpeg" alt="" />
+        </a>
+        <a href="../WebDev CLub/2.jpeg" class="galimage webdev">
+          <img src="../WebDev CLub/2.jpeg" alt="" />
+        </a>
+        <a href="../WebDev CLub/3.jpeg" class="galimage webdev">
+          <img src="../WebDev CLub/3.jpeg" alt="" />
+        </a>
+        <a href="../WebDev CLub/4.jpeg" class="galimage webdev">
+          <img src="../WebDev CLub/4.jpeg" alt="" />
+        </a>
+      </div>
+    </div>
 
     <inn-footer></inn-footer>
 
     <!--=============== MAIN JS ===============-->
     <script src="../assets/js/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
     <script>
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: 1,
@@ -210,6 +292,35 @@
         },
       });
     </script>
+    <script>
+      $(document).ready(function () {
+        $(".buttons").click(function () {
+          $(this).addClass("active").siblings().removeClass("active");
+
+          var filter = $(this).attr("data-filter");
+
+          if (filter == "all") {
+            $(".galimage").show(400);
+          } else {
+            $(".galimage")
+              .not("." + filter)
+              .hide(200);
+            $(".galimage")
+              .filter("." + filter)
+              .show(400);
+          }
+        });
+
+        $(".gallery").magnificPopup({
+          delegate: "a",
+          type: "image",
+          gallery: {
+            enabled: true,
+          },
+        });
+      });
+    </script>
+
     <script src="../assets/js/components.js"></script>
     <script src="../assets/js/main.js"></script>
   </body>
