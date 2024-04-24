@@ -1038,8 +1038,9 @@ a {
 
 .memcard__image img {
   display: block;
-  max-width: 100%;
-  height: auto;
+  max-width: 200px;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
 }
 
 .mem-container {
@@ -1070,7 +1071,7 @@ a {
 
 .memcard__image {
   position: relative;
-  background-color: var(--first-color-lighten);
+  /* background-color: var(--first-color-lighten); */
   padding-top: 1.5rem;
   margin-bottom: -0.75rem;
 }
@@ -1092,8 +1093,8 @@ a {
 }
 
 .memcard__shadow {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   background-color: var(--first-color);
   border-radius: 50%;
   position: absolute;
