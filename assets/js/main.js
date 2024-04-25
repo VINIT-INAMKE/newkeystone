@@ -52,7 +52,7 @@ const toggleItem = (item) => {
 };
 
 /*=============== DELETE DROPDOWN STYLES ===============*/
-const mediaQuery = matchMedia("(min-width: 1458px)"),
+const mediaQuery = matchMedia("(min-width: 1240px)"),
   dropdownContainer = document.querySelectorAll(".dropdown__container");
 
 // Function to remove dropdown styles in mobile mode when browser resizes
@@ -213,17 +213,7 @@ function BE_Mechanical_Syllabus_2019() {
 ></iframe>
   `;
 }
-function First_Year() {
-  document.getElementById("fesyllabus").innerHTML = `
-  <iframe
-  src="https://drive.google.com/file/d/1kOsxz6bjzyoZoF6bB4EquJGyH2Xdne-b/preview#toolbar=0"
-  allow="autoplay"
-  width="100%"
-  height="100%"
-  class="syllembed"
-></iframe>
-  `;
-}
+
 function BE_ENTC_Syllabus_2019() {
   document.getElementById("entcsyllabus").innerHTML = `
   <iframe
