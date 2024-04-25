@@ -1206,7 +1206,7 @@ class InFooter extends HTMLElement {
     <div class="footer-bottom">
         
         <div class="social">
-            <a href="./contactus.html" class="contactcl">Contact Us</a></h2>
+            <a href="../contactus.html" class="contactcl">Contact Us</a></h2>
             </div>
             <div class="socials">
             <a href="#"><i class="ri-facebook-fill"></i> </a>

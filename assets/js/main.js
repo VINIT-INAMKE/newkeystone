@@ -52,7 +52,7 @@ const toggleItem = (item) => {
 };
 
 /*=============== DELETE DROPDOWN STYLES ===============*/
-const mediaQuery = matchMedia("(min-width: 1240px)"),
+const mediaQuery = matchMedia("(min-width: 1241px)"),
   dropdownContainer = document.querySelectorAll(".dropdown__container");
 
 // Function to remove dropdown styles in mobile mode when browser resizes
