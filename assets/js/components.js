@@ -60,8 +60,8 @@ class OutHeader extends HTMLElement {
                   >
                 </li>
                 <li>
-                  <a href="./about/corevalues.html" class="dropdown__link"
-                    >Core Values</a
+                  <a href="./about/whykeystone.html" class="dropdown__link"
+                    >Why Keystone?</a
                   >
                 </li>
               </ul>
@@ -623,8 +623,8 @@ class InHeader extends HTMLElement {
                   >
                 </li>
                 <li>
-                  <a href="../about/corevalues.html" class="dropdown__link"
-                    >Core Values</a
+                  <a href="../about/whykeystone.html" class="dropdown__link"
+                    >Why Keystone?</a
                   >
                 </li>
               </ul>
