@@ -607,7 +607,11 @@ a {
   color: black;
   background-color: var(--color-mine);
 }
-
+.content-table tbody tr td.active-row {
+  font-weight: bold;
+  color: black;
+  background-color: var(--color-mine);
+}
 .timetablesection h1 {
   text-align: center;
 }
