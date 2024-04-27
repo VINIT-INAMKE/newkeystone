@@ -398,7 +398,7 @@ class OutHeader extends HTMLElement {
                   >
                 </li>
                 <li>
-                  <a href="../ENTC/about.html" class="dropdown__link">
+                  <a href="../ENTC/academiccalender.html" class="dropdown__link">
                     Academic Calender
                   </a>
                 </li>
@@ -966,7 +966,7 @@ class InHeader extends HTMLElement {
                   >
                 </li>
                 <li>
-                  <a href="../ENTC/about.html" class="dropdown__link">
+                  <a href="../ENTC/academiccalender.html" class="dropdown__link">
                     Academic Calender
                   </a>
                 </li>
