@@ -282,11 +282,7 @@ class OutHeader extends HTMLElement {
                     >About Department</a
                   >
                 </li>
-                <li>
-                  <a href="../FE/about.html" class="dropdown__link">
-                    Academic Calender
-                  </a>
-                </li>
+                
                 <li>
                   <a href="./FE/hod.html" class="dropdown__link"
                     >From the Desk of HOD</a
@@ -304,6 +300,11 @@ class OutHeader extends HTMLElement {
                   <a href="./FE/labs.html" class="dropdown__link"
                     >Laboratories</a
                   >
+                </li>
+                <li>
+                  <a href="../FE/about.html" class="dropdown__link">
+                    Academic Calender
+                  </a>
                 </li>
                 <li>
                   <a href="./FE/timetables.html" class="dropdown__link"
@@ -337,11 +338,7 @@ class OutHeader extends HTMLElement {
                     >About Department</a
                   >
                 </li>
-                <li>
-                  <a href="./Comp/academiccalender.html" class="dropdown__link">
-                    Academic Calender
-                  </a>
-                </li>
+               
                 <li>
                   <a href="./Comp/hod.html" class="dropdown__link"
                     >From the Desk of HOD</a
@@ -362,6 +359,11 @@ class OutHeader extends HTMLElement {
                     >Laboratories</a
                   >
                 </li>
+                <li>
+                <a href="./Comp/academiccalender.html" class="dropdown__link">
+                  Academic Calender
+                </a>
+              </li>
                 <li>
                   <a href="./Comp/timetables.html" class="dropdown__link"
                     >Timetables</a
@@ -397,11 +399,7 @@ class OutHeader extends HTMLElement {
                     >About Department</a
                   >
                 </li>
-                <li>
-                  <a href="../ENTC/academiccalender.html" class="dropdown__link">
-                    Academic Calender
-                  </a>
-                </li>
+                
                 <li>
                   <a href="./ENTC/hod.html" class="dropdown__link"
                     >From the Desk of HOD</a
@@ -421,6 +419,11 @@ class OutHeader extends HTMLElement {
                   <a href="./ENTC/labs.html" class="dropdown__link"
                     >Laboratories</a
                   >
+                </li>
+                <li>
+                  <a href="../ENTC/academiccalender.html" class="dropdown__link">
+                    Academic Calender
+                  </a>
                 </li>
                 <li>
                   <a href="./ENTC/timetables.html" class="dropdown__link"
@@ -453,11 +456,7 @@ class OutHeader extends HTMLElement {
                     >About Department</a
                   >
                 </li>
-                <li>
-                  <a href="../Mechanical/about.html" class="dropdown__link">
-                    Academic Calender
-                  </a>
-                </li>
+               
                 <li>
                   <a href="./Mechanical/hod.html" class="dropdown__link"
                     >From the Desk of HOD</a
@@ -478,6 +477,11 @@ class OutHeader extends HTMLElement {
                     >Laboratories</a
                   >
                 </li>
+                <li>
+                <a href="../Mechanical/about.html" class="dropdown__link">
+                  Academic Calender
+                </a>
+              </li>
                 <li>
                   <a href="./Mechanical/timetables.html" class="dropdown__link"
                     >Timetables</a
@@ -509,11 +513,7 @@ class OutHeader extends HTMLElement {
                     >About Department</a
                   >
                 </li>
-                <li>
-                  <a href="../AIDS/about.html" class="dropdown__link">
-                    Academic Calender
-                  </a>
-                </li>
+              
                 <li>
                   <a href="./AIDS/hod.html" class="dropdown__link"
                     >From the Desk of HOD</a
@@ -534,6 +534,11 @@ class OutHeader extends HTMLElement {
                     >Laboratories</a
                   >
                 </li>
+                <li>
+                <a href="../AIDS/about.html" class="dropdown__link">
+                  Academic Calender
+                </a>
+              </li>
                 <!-- <li>
                                         <a href="./AIDS/timetables.html" class="dropdown__link">Timetables</a>
                                     </li>
@@ -845,11 +850,7 @@ class InHeader extends HTMLElement {
                     >About Department</a
                   >
                 </li>
-                <li>
-                  <a href="../FE/about.html" class="dropdown__link">
-                    Academic Calender
-                  </a>
-                </li>
+               
                 <li>
                   <a href="../FE/hod.html" class="dropdown__link"
                     >From the Desk of HOD</a
@@ -870,6 +871,11 @@ class InHeader extends HTMLElement {
                     >Laboratories</a
                   >
                 </li>
+                <li>
+                <a href="../FE/about.html" class="dropdown__link">
+                  Academic Calender
+                </a>
+              </li>
                 <li>
                   <a href="../FE/timetables.html" class="dropdown__link"
                     >Timetables</a
@@ -902,14 +908,7 @@ class InHeader extends HTMLElement {
                     >About Department</a
                   >
                 </li>
-                <li>
-                  <a
-                    href="../Comp/academiccalender.html"
-                    class="dropdown__link"
-                  >
-                    Academic Calender
-                  </a>
-                </li>
+                
                 <li>
                   <a href="../Comp/hod.html" class="dropdown__link"
                     >From the Desk of HOD</a
@@ -929,6 +928,14 @@ class InHeader extends HTMLElement {
                   <a href="../Comp/labs.html" class="dropdown__link"
                     >Laboratories</a
                   >
+                </li>
+                <li>
+                  <a
+                    href="../Comp/academiccalender.html"
+                    class="dropdown__link"
+                  >
+                    Academic Calender
+                  </a>
                 </li>
                 <li>
                   <a href="../Comp/timetables.html" class="dropdown__link"
@@ -965,11 +972,7 @@ class InHeader extends HTMLElement {
                     >About Department</a
                   >
                 </li>
-                <li>
-                  <a href="../ENTC/academiccalender.html" class="dropdown__link">
-                    Academic Calender
-                  </a>
-                </li>
+
                 <li>
                   <a href="../ENTC/hod.html" class="dropdown__link"
                     >From the Desk of HOD</a
@@ -990,6 +993,11 @@ class InHeader extends HTMLElement {
                     >Laboratories</a
                   >
                 </li>
+                <li>
+                <a href="../ENTC/academiccalender.html" class="dropdown__link">
+                  Academic Calender
+                </a>
+              </li>
                 <li>
                   <a href="../ENTC/timetables.html" class="dropdown__link"
                     >Timetables</a
@@ -1021,11 +1029,7 @@ class InHeader extends HTMLElement {
                     >About Department</a
                   >
                 </li>
-                <li>
-                  <a href="../Mechanical/about.html" class="dropdown__link">
-                    Academic Calender
-                  </a>
-                </li>
+                
                 <li>
                   <a href="../Mechanical/hod.html" class="dropdown__link"
                     >From the Desk of HOD</a
@@ -1046,6 +1050,11 @@ class InHeader extends HTMLElement {
                     >Laboratories</a
                   >
                 </li>
+                <li>
+                <a href="../Mechanical/about.html" class="dropdown__link">
+                  Academic Calender
+                </a>
+              </li>
                 <li>
                   <a href="../Mechanical/timetables.html" class="dropdown__link"
                     >Timetables</a
@@ -1079,11 +1088,7 @@ class InHeader extends HTMLElement {
                     >About Department</a
                   >
                 </li>
-                <li>
-                  <a href="../AIDS/about.html" class="dropdown__link">
-                    Academic Calender
-                  </a>
-                </li>
+               
                 <li>
                   <a href="../AIDS/hod.html" class="dropdown__link"
                     >From the Desk of HOD</a
@@ -1104,6 +1109,11 @@ class InHeader extends HTMLElement {
                     >Laboratories</a
                   >
                 </li>
+                <li>
+                <a href="../AIDS/about.html" class="dropdown__link">
+                  Academic Calender
+                </a>
+              </li>
                 <!-- <li>
                                           <a href="../AIDS/timetables.html" class="dropdown__link">Timetables</a>
                                       </li>
