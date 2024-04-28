@@ -207,16 +207,19 @@ class OutHeader extends HTMLElement {
 
               <ul class="dropdown__list">
                 <li>
-                  <a href="#" class="dropdown__link">From The Desk Of Dean</a>
+                  <a href="./examination/dean.html" class="dropdown__link">From The Desk Of Dean</a>
                 </li>
                 <li>
-                  <a href="#" class="dropdown__link">Rules And Regulations</a>
+                  <a href="./examination/rulesnregulations.html" class="dropdown__link">Rules And Regulations</a>
                 </li>
                 <li>
-                  <a href="#" class="dropdown__link">Examination Circular</a>
+                  <a href="./examination/notice.html" class="dropdown__link">Examination Notice</a>
                 </li>
                 <li>
-                  <a href="#" class="dropdown__link">Examination Timetables</a>
+                  <a href="./examination/circulars.html" class="dropdown__link">Examination Circulars</a>
+                </li>
+                <li>
+                  <a href="./examination/timetables.html" class="dropdown__link">Examination Timetables</a>
                 </li>
               </ul>
             </div>
@@ -777,16 +780,19 @@ class InHeader extends HTMLElement {
 
               <ul class="dropdown__list">
                 <li>
-                  <a href="#" class="dropdown__link">From The Desk Of Dean</a>
+                  <a href="../examination/dean.html" class="dropdown__link">From The Desk Of Dean</a>
                 </li>
                 <li>
-                  <a href="#" class="dropdown__link">Rules And Regulations</a>
+                  <a href="../examination/rulesnregulations.html" class="dropdown__link">Rules And Regulations</a>
                 </li>
                 <li>
-                  <a href="#" class="dropdown__link">Examination Circular</a>
+                  <a href="../examination/notice.html" class="dropdown__link">Examination Notice</a>
                 </li>
                 <li>
-                  <a href="#" class="dropdown__link">Examination Timetables</a>
+                  <a href="../examination/circulars.html" class="dropdown__link">Examination Circulars</a>
+                </li>
+                <li>
+                  <a href="../examination/timetables.html" class="dropdown__link">Examination Timetables</a>
                 </li>
               </ul>
             </div>
@@ -1146,7 +1152,7 @@ class InFooter extends HTMLElement {
 <footer class="footer">
 
     <div class="footer-left">
-        <img src="https://media.discordapp.net/attachments/851837926496796694/1228761773411401801/keystone.png?ex=662d3894&is=661ac394&hm=b58fa6fc697eb8df14284159e9f0e212f4589e798f8e1667e835b86350d7ed5e&=&format=webp&quality=lossless"
+        <img src="https://media.discordapp.net/attachments/851837926496796694/1228761773411401801/keystone.png?ex=662fdb94&is=662e8a14&hm=49785b719eb5cdbfa466bba84a61431a97d725bfdbd87177aa77f95c12d0ddec&=&format=webp&quality=lossless"
             alt="" />
         <p>
             Keystone School Of Engineering, <br />
@@ -1239,7 +1245,7 @@ class OutFooter extends HTMLElement {
     this.innerHTML = `
     <footer class="footer">
         <div class="footer-left">
-            <img src="https://media.discordapp.net/attachments/851837926496796694/1228761773411401801/keystone.png?ex=662d3894&is=661ac394&hm=b58fa6fc697eb8df14284159e9f0e212f4589e798f8e1667e835b86350d7ed5e&=&format=webp&quality=lossless"
+            <img src="https://media.discordapp.net/attachments/851837926496796694/1228761773411401801/keystone.png?ex=662fdb94&is=662e8a14&hm=49785b719eb5cdbfa466bba84a61431a97d725bfdbd87177aa77f95c12d0ddec&=&format=webp&quality=lossless"
                 alt="" />
             <p>
                 Keystone School Of Engineering, <br />
