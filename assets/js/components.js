@@ -1152,7 +1152,7 @@ class InFooter extends HTMLElement {
 <footer class="footer">
 
     <div class="footer-left">
-        <img src="https://media.discordapp.net/attachments/851837926496796694/1228761773411401801/keystone.png?ex=662fdb94&is=662e8a14&hm=49785b719eb5cdbfa466bba84a61431a97d725bfdbd87177aa77f95c12d0ddec&=&format=webp&quality=lossless"
+        <img src="../images/keystone.png"
             alt="" />
         <p>
             Keystone School Of Engineering, <br />
@@ -1245,7 +1245,7 @@ class OutFooter extends HTMLElement {
     this.innerHTML = `
     <footer class="footer">
         <div class="footer-left">
-            <img src="https://media.discordapp.net/attachments/851837926496796694/1228761773411401801/keystone.png?ex=662fdb94&is=662e8a14&hm=49785b719eb5cdbfa466bba84a61431a97d725bfdbd87177aa77f95c12d0ddec&=&format=webp&quality=lossless"
+            <img src="./images/keystone.png"
                 alt="" />
             <p>
                 Keystone School Of Engineering, <br />
