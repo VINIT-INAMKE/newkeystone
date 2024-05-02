@@ -98,7 +98,7 @@ class OutHeader extends HTMLElement {
                 </li>
                 <li>
                   <a href="./admission/procedure.html" class="dropdown__link"
-                    >Admission Procedure</a
+                    >Admission Instructions and Procedure</a
                   >
                 </li>
                 <li>
@@ -133,7 +133,7 @@ class OutHeader extends HTMLElement {
                 </li>
                 <li>
                   <a href="./admission/procedure.html" class="dropdown__link"
-                    >Admission Procedure</a
+                    >Admission Instructions and Procedure</a
                   >
                 </li>
                 <li>
@@ -669,7 +669,7 @@ class InHeader extends HTMLElement {
                 </li>
                 <li>
                   <a href="../admission/procedure.html" class="dropdown__link"
-                    >Admission Procedure</a
+                    >Admission Instructions and Procedure</a
                   >
                 </li>
                 <li>
@@ -704,7 +704,7 @@ class InHeader extends HTMLElement {
                 </li>
                 <li>
                   <a href="../admission/procedure.html" class="dropdown__link"
-                    >Admission Procedure</a
+                    >Admission Instructions and Procedure</a
                   >
                 </li>
                 <li>
