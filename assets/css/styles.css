@@ -1390,7 +1390,7 @@ a {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 80%;
+  width: 70%;
 
   max-width: 1000px;
 
@@ -1402,7 +1402,7 @@ a {
   background-color: #bad8f1;
   overflow-y: auto;
 
-  max-height: 98vh;
+  max-height: 85vh;
 
   visibility: hidden;
   opacity: 0;
