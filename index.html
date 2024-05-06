@@ -411,7 +411,7 @@
             style="display: flex; justify-content: end; margin-top: 20px"
           >
             <div class="managementbuttondiv">
-              <button class="adm-button" onclick="somansir()">Close</button>
+              <button class="adm-button" onclick="somansir()">X</button>
             </div>
           </div>
           <div class="hodcontentWrapper">
@@ -431,9 +431,9 @@
                             value="7d0aaf35-0401-48b1-bef5-ea1352ebd15e"
                           /> -->
                   <div class="adm-form-group">
-                    <label for="adm-candidate-name" class="adm-label"
-                      >Candidate Name *</label
-                    >
+                    <label for="adm-candidate-name" class="adm-label">
+                      Candidate Name *
+                    </label>
                     <input
                       type="text"
                       id="adm-candidate-name"
@@ -443,20 +443,21 @@
                     />
                   </div>
                   <div class="adm-form-group">
-                    <label for="adm-candidate-email" class="adm-label"
-                      >Candidate Email *</label
-                    >
+                    <label for="adm-candidate-email" class="adm-label">
+                      Candidate Email *
+                    </label>
                     <input
                       type="email"
                       id="adm-candidate-email"
                       name="candidate-email"
                       required
                       class="adm-input"
+                      inputmode="email"
                     />
                   </div>
                   <div class="adm-form-group">
-                    <label for="adm-contact-no" class="adm-label"
-                      >Contact No.*
+                    <label for="adm-contact-no" class="adm-label">
+                      Contact No.*
                     </label>
                     <input
                       type="text"
@@ -464,13 +465,14 @@
                       name="contact-no"
                       required
                       class="adm-input"
+                      inputmode="numeric"
                     />
                   </div>
 
                   <div class="adm-form-group">
-                    <label for="adm-admission-year" class="adm-label"
-                      >Admission Year</label
-                    >
+                    <label for="adm-admission-year" class="adm-label">
+                      Admission Year
+                    </label>
                     <select
                       id="adm-admission-year"
                       name="admission-year"
@@ -492,7 +494,8 @@
                         name="computer_engineering"
                         value="Computer Engineering"
                         class="adm-input"
-                      />Computer Engineering
+                      />
+                      Computer Engineering
                     </label>
                     <div></div>
                     <label for="entc_engineering">
@@ -501,7 +504,8 @@
                         name="entc_engineering"
                         value="Electronics and Telecommunications Engineering"
                         class="adm-input"
-                      />Electronics and Telecommunications Engineering
+                      />
+                      E & TC Engineering
                     </label>
                     <div></div>
                     <label for="mech_engineering">
@@ -510,7 +514,8 @@
                         name="mech_engineering"
                         value="Mechanical Engineering"
                         class="adm-input"
-                      />Mechanical Engineering
+                      />
+                      Mechanical Engineering
                     </label>
 
                     <div></div>
@@ -520,7 +525,8 @@
                         name="aids_engineering"
                         value="AI & DS Engineering"
                         class="adm-input"
-                      />AI & DS Engineering
+                      />
+                      AI & DS Engineering
                     </label>
                   </div>
 
@@ -643,7 +649,7 @@
             clearInterval(timer);
           }
           console.log(i);
-        }, 1000);
+        }, 500);
       }
     </script>
 

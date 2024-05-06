@@ -1402,7 +1402,7 @@ a {
   background-color: #bad8f1;
   overflow-y: auto;
 
-  max-height: 85vh;
+  max-height: 80vh;
 
   visibility: hidden;
   opacity: 0;
@@ -1618,6 +1618,9 @@ a {
 }
 .adm-registration-section #prog-title {
   margin-bottom: 20px;
+  font-size: 2.5em;
+  color: var(--title-color);
+  font-weight: bolder;
 }
 .adm-form {
   text-transform: lowercase;
