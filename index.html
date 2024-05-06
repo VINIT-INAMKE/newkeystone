@@ -33,7 +33,7 @@
 
   <body>
     <!--=============== HEADER ===============-->
-    .
+
     <div class="keyper-container" id="blur">
       <header class="header">
         <oute-header></oute-header>
@@ -184,120 +184,6 @@
               >
             </div>
           </div>
-        </section>
-        <section
-          id="programmes"
-          style="background-color: #bad8f1; padding: 30px 0"
-        >
-          <section class="adm-registration-section">
-            <h1 id="prog-title">Admission Enquiry</h1>
-            <form
-              id="adm-registration-form"
-              class="adm-form"
-              name="Admission_Form"
-              netlify
-            >
-              <!-- action="https://api.web3forms.com/submit" method="POST" -->
-              <!-- <input
-                        type="hidden"
-                        name="access_key"
-                        value="7d0aaf35-0401-48b1-bef5-ea1352ebd15e"
-                      /> -->
-              <div class="adm-form-group">
-                <label for="adm-candidate-name" class="adm-label"
-                  >Candidate Name *</label
-                >
-                <input
-                  type="text"
-                  id="adm-candidate-name"
-                  name="candidate-name"
-                  required
-                  class="adm-input"
-                />
-              </div>
-              <div class="adm-form-group">
-                <label for="adm-candidate-email" class="adm-label"
-                  >Candidate Email *</label
-                >
-                <input
-                  type="email"
-                  id="adm-candidate-email"
-                  name="candidate-email"
-                  required
-                  class="adm-input"
-                />
-              </div>
-              <div class="adm-form-group">
-                <label for="adm-contact-no" class="adm-label"
-                  >Contact No.*
-                </label>
-                <input
-                  type="text"
-                  id="adm-contact-no"
-                  name="contact-no"
-                  required
-                  class="adm-input"
-                />
-              </div>
-
-              <div class="adm-form-group">
-                <label for="adm-admission-year" class="adm-label"
-                  >Admission Year</label
-                >
-                <select
-                  id="adm-admission-year"
-                  name="admission-year"
-                  class="adm-select"
-                >
-                  <option value="" selected>Select your Year</option>
-                  <option value="first-year">
-                    Bachelor of Engineering (First Year)
-                  </option>
-                  <option value="direct-second-year">
-                    Bachelor of Engineering (Direct Second Year)
-                  </option>
-                </select>
-              </div>
-              <div id="additional-fields" class="adm-form-group">
-                <label for="computer_engineering">
-                  <input
-                    type="checkbox"
-                    name="computer_engineering"
-                    value="Computer Engineering"
-                    class="adm-input"
-                  />Computer Engineering
-                </label>
-                <label for="entc_engineering">
-                  <input
-                    type="checkbox"
-                    name="entc_engineering"
-                    value="Electronics and Telecommunications Engineering"
-                    class="adm-input"
-                  />Electronics and Telecommunications Engineering
-                </label>
-                <label for="mech_engineering">
-                  <input
-                    type="checkbox"
-                    name="mech_engineering"
-                    value="Mechanical Engineering"
-                    class="adm-input"
-                  />Mechanical Engineering
-                </label>
-                <label for="aids_engineering">
-                  <input
-                    type="checkbox"
-                    name="aids_engineering"
-                    value="AI & DS Engineering"
-                    class="adm-input"
-                  />AI & DS Engineering
-                </label>
-              </div>
-
-              <div id="adm-cont">
-                <button type="submit" class="adm-button">Submit</button>
-              </div>
-            </form>
-          </section>
         </section>
 
         <section id="up-container">
@@ -517,7 +403,137 @@
 
       <oute-footer></oute-footer>
     </div>
+    <div id="login-popup">
+      <div class="hodcontainer">
+        <div class="key-hodrow">
+          <div
+            class="keypersonsButton2"
+            style="display: flex; justify-content: end; margin-top: 20px"
+          >
+            <div class="managementbuttondiv">
+              <button class="adm-button" onclick="somansir()">Close</button>
+            </div>
+          </div>
+          <div class="hodcontentWrapper">
+            <div class="hodcontent" style="overflow: hidden">
+              <section class="adm-registration-section">
+                <h1 id="prog-title">Admission Enquiry</h1>
+                <form
+                  id="adm-registration-form"
+                  class="adm-form"
+                  name="Admission_Form"
+                  netlify
+                >
+                  <!-- action="https://api.web3forms.com/submit" method="POST" -->
+                  <!-- <input
+                            type="hidden"
+                            name="access_key"
+                            value="7d0aaf35-0401-48b1-bef5-ea1352ebd15e"
+                          /> -->
+                  <div class="adm-form-group">
+                    <label for="adm-candidate-name" class="adm-label"
+                      >Candidate Name *</label
+                    >
+                    <input
+                      type="text"
+                      id="adm-candidate-name"
+                      name="candidate-name"
+                      required
+                      class="adm-input"
+                    />
+                  </div>
+                  <div class="adm-form-group">
+                    <label for="adm-candidate-email" class="adm-label"
+                      >Candidate Email *</label
+                    >
+                    <input
+                      type="email"
+                      id="adm-candidate-email"
+                      name="candidate-email"
+                      required
+                      class="adm-input"
+                    />
+                  </div>
+                  <div class="adm-form-group">
+                    <label for="adm-contact-no" class="adm-label"
+                      >Contact No.*
+                    </label>
+                    <input
+                      type="text"
+                      id="adm-contact-no"
+                      name="contact-no"
+                      required
+                      class="adm-input"
+                    />
+                  </div>
 
+                  <div class="adm-form-group">
+                    <label for="adm-admission-year" class="adm-label"
+                      >Admission Year</label
+                    >
+                    <select
+                      id="adm-admission-year"
+                      name="admission-year"
+                      class="adm-select"
+                    >
+                      <option value="" selected>Select your Year</option>
+                      <option value="first-year">
+                        Bachelor of Engineering (First Year)
+                      </option>
+                      <option value="direct-second-year">
+                        Bachelor of Engineering (Direct Second Year)
+                      </option>
+                    </select>
+                  </div>
+                  <div id="additional-fields" class="adm-form-group">
+                    <label for="computer_engineering">
+                      <input
+                        type="checkbox"
+                        name="computer_engineering"
+                        value="Computer Engineering"
+                        class="adm-input"
+                      />Computer Engineering
+                    </label>
+                    <div></div>
+                    <label for="entc_engineering">
+                      <input
+                        type="checkbox"
+                        name="entc_engineering"
+                        value="Electronics and Telecommunications Engineering"
+                        class="adm-input"
+                      />Electronics and Telecommunications Engineering
+                    </label>
+                    <div></div>
+                    <label for="mech_engineering">
+                      <input
+                        type="checkbox"
+                        name="mech_engineering"
+                        value="Mechanical Engineering"
+                        class="adm-input"
+                      />Mechanical Engineering
+                    </label>
+
+                    <div></div>
+                    <label for="aids_engineering">
+                      <input
+                        type="checkbox"
+                        name="aids_engineering"
+                        value="AI & DS Engineering"
+                        class="adm-input"
+                      />AI & DS Engineering
+                    </label>
+                  </div>
+
+                  <div id="adm-cont">
+                    <button type="submit" class="adm-button">Submit</button>
+                  </div>
+                </form>
+              </section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="./assets/js/components.js"></script>
     <!-- Swiper JS -->
     <script src="./assets/js/swiper-bundle.min.js"></script>
@@ -602,6 +618,33 @@
           },
         });
       });
+    </script>
+    <script>
+      function somansir() {
+        var blur = document.getElementById("blur");
+        blur.classList.toggle("active");
+        var somansirpopup = document.getElementById("login-popup");
+        somansirpopup.classList.toggle("active");
+      }
+      const loginPopup = document.getElementById("login-popup");
+      window.addEventListener("load", function () {
+        showPopup();
+      });
+      function showPopup() {
+        const timeLimit = 1;
+        let i = 0;
+        const timer = setInterval(function () {
+          i++;
+          if (i == timeLimit) {
+            var blur = document.getElementById("blur");
+            blur.classList.toggle("active");
+
+            loginPopup.classList.toggle("active");
+            clearInterval(timer);
+          }
+          console.log(i);
+        }, 1000);
+      }
     </script>
 
     <script src="./assets/js/main.js"></script>

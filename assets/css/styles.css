@@ -1385,7 +1385,30 @@ a {
   pointer-events: none;
   user-select: none;
 }
+#login-popup {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
 
+  max-width: 1000px;
+
+  padding: 5px;
+  padding-top: 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: #bad8f1;
+  overflow-y: auto;
+
+  max-height: 98vh;
+
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+  border-radius: 20px;
+}
 #somansir-popup,
 #milindjoshi-popup,
 #prashantkasabe-popup,
@@ -1422,7 +1445,7 @@ a {
 #principal-popup::-webkit-scrollbar {
   display: none;
 }
-
+#login-popup.active,
 #somansir-popup.active,
 #principal-popup.active,
 #milindjoshi-popup.active,
@@ -1434,50 +1457,14 @@ a {
   top: 50%;
 }
 
-#admi-popup {
-  position: fixed;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 90%;
-  /* Adjust the width as per your preference */
-
-  /* Set maximum width for larger screens */
-  padding: 5px;
-  padding-top: 0;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-  background-color: var(--first-color-lighten);
-  overflow-y: auto;
-  /* Enable vertical scrolling if needed */
-  max-height: 80vh;
-  /* Set maximum height for the popup */
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.5s;
-  border-radius: 20px;
-}
-
-#admi-popup::-webkit-scrollbar {
-  display: none;
-}
-
-#admi-popup.active {
-  visibility: visible;
-  opacity: 1;
-  transition: 0.5s;
-  top: 50%;
-}
-
-/* #somansir-popup .managementbuttondiv,
+#somansir-popup .managementbuttondiv,
 #milindjoshi-popup .managementbuttondiv,
 #prashantkasabe-popup .managementbuttondiv,
 #bharatBhusanSud-popup .managementbuttondiv,
 #principal-popup .managementbuttondiv {
   display: flex;
   justify-content: flex-end;
-} */
+}
 
 #somansir-popup button,
 #milindjoshi-popup button,
@@ -1629,15 +1616,20 @@ a {
   align-items: center;
   margin-bottom: 50px;
 }
-
+.adm-registration-section #prog-title {
+  margin-bottom: 20px;
+}
 .adm-form {
+  text-transform: lowercase;
   width: 100%;
   max-width: 500px;
   padding: 30px;
   /* Increased padding */
   border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  border: 1px solid gray;
+  /* background-color: var(--color-mine); */
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
+  /* background-color: #fff; */
 }
 
 .adm-h2 {
@@ -1658,15 +1650,18 @@ a {
   font-family: var(--body-font);
   margin-right: 10px;
   margin-top: 20px;
+  color: black;
 }
 
 .adm-form-group .adm-input[type="checkbox"] {
   padding: 10px;
   margin-right: 7px;
 }
-
+.adm-form-group .adm-input {
+  background-color: var(--body-color);
+}
 .adm-form-group label {
-  margin-right: 20px;
+  color: black;
 }
 
 .adm-input[type="text"],
