@@ -1390,7 +1390,7 @@ a {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 70%;
+  width: 40%;
 
   max-width: 1000px;
 
@@ -1408,6 +1408,16 @@ a {
   opacity: 0;
   transition: 0.5s;
   border-radius: 20px;
+}
+@media (max-width: 584px) {
+  #login-popup {
+    width: 70%;
+  }
+}
+@media (max-width: 425px) {
+  #login-popup {
+    width: 80%;
+  }
 }
 #somansir-popup,
 #milindjoshi-popup,
