@@ -1151,93 +1151,98 @@ class InHeader extends HTMLElement {
 class InFooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
-<footer class="footer">
-
+    <footer class="footer">
     <div class="footer-left">
-        <img src="../images/keystone.png"
-            alt="" />
-        <p>
-            Keystone School Of Engineering, <br />
-            Near Handewadi Chowk, <br />
-            Urali Devachi,
-            Shewalewadi, <br />
-            Pune – 412308
-        </p>
+      <img src="../images/keystone.png" alt="" />
+      <p>
+        Keystone School Of Engineering, <br />
+        Near Handewadi Chowk, <br />
+        Urali Devachi, Shewalewadi, <br />
+        Pune – 412308
+      </p>
     </div>
     <ul class="footer-right">
-        <li>
-            <h2>List 1</h2>
-            <ul class="footer-box">
-                <li>
-                    <a href="../AIDS/about.html">About Department</a>
-                </li>
-                <li>
-                    <a href="../AIDS/hod.html">From the Desk of HOD</a>
-                </li>
-                <li>
-                    <a href="../AIDS/faculty.html">Faculty</a>
-                </li>
-                <li>
-                    <a href="../AIDS/syllabus.html">Syllabus</a>
-                </li>
-                <li>
-                    <a href="../AIDS/labs.html">Laboratories</a>
-                </li>
-            </ul>
-        </li>
-        <li>
-            <h2>List 2</h2>
-            <ul class="footer-box">
-                <li>
-                    <a href="../AIDS/timetables.html">Timetables</a>
-                </li>
-                <li>
-                    <a href="../AIDS/association.html">Student Associations</a>
-                </li>
-                <li>
-                    <a href="../AIDS/studentclubs.html">Student Clubs</a>
-                </li>
-                <li>
-                    <a href="../AIDS/results.html"> Top Rankers</a>
-                </li>
-            </ul>
-        </li>
-        <li>
-            <h2>List 3</h2>
-            <ul class="footer-box">
-                <li>
-                    <a href="../AIDS/timetables.html">Timetables</a>
-                </li>
-                <li>
-                    <a href="../AIDS/association.html">Student Associations</a>
-                </li>
-                <li>
-                    <a href="../AIDS/studentclubs.html">Student Clubs</a>
-                </li>
-                <li>
-                    <a href="../AIDS/results.html"> Top Rankers</a>
-                </li>
-            </ul>
-        </li>
-        
+      <li>
+        <h2>About Keystone</h2>
+        <ul class="footer-box">
+          <li>
+            <a href="../about/collegeprofile.html">Vision Mission</a>
+          </li>
+          <li>
+            <a href="#">Recognition</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h2>Admission</h2>
+        <ul class="footer-box">
+          <li>
+            <a href="../admission/brochure.html">Admission Brochure</a>
+          </li>
+          <li>
+            <a href="../admission/feestruct.html">Fee Structure</a>
+          </li>
+          <li>
+            <a href="../admission/procedure.html"
+              >Admission Instruction and Procedure</a
+            >
+          </li>
+          <li>
+            <a href="../admission/notice.html">Notices</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <h2>Placement</h2>
+        <ul class="footer-box">
+          <li>
+            <a href="../index.html/#recruiters-div">Our Recruiters</a>
+          </li>
+          <li>
+            <a href="../t&p/preplacement.html">Placements</a>
+          </li>
+          <li>
+            <a href="../t&p/preplacement.html">Training</a>
+          </li>
+          <!-- <li>
+            <a href="../AIDS/results.html"> Top Rankers</a>
+          </li> -->
+        </ul>
+      </li>
+      <li>
+        <h2>Life At Keystone</h2>
+        <ul class="footer-box">
+          <li>
+            <a href="#">Cultural Events</a>
+          </li>
+          <li>
+            <a href="#">Sports</a>
+          </li>
+          <li>
+            <a href="#">Keystone Drama Club</a>
+          </li>
+          <li>
+            <a href="#"> NSS </a>
+          </li>
+        </ul>
+      </li>
     </ul>
     <div class="footer-bottom">
-        
-        <div class="social">
-            <a href="../contactus.html" class="contactcl">Contact Us</a></h2>
-            </div>
-            <div class="socials">
-            <a href="#"><i class="ri-facebook-fill"></i> </a>
-            <a href="#"><i class="ri-twitter-fill"></i></a>
-            <a href="#"><i class="ri-youtube-fill"></i></a>
-            <a href="#"><i class="ri-instagram-fill"></i></a>
-            <a href="#"><i class="ri-whatsapp-fill"></i></a>
-        </div>
-        <p>
-            Copyright &copy; 2012 - 2024 Shalakha Foundation. All rights reserved.
-        </p>
+      <div class="social">
+        <a href="../contactus.html" class="contactcl">Contact Us</a>
+      </div>
+      <div class="socials">
+        <a href="#"><i class="ri-facebook-fill"></i> </a>
+        <a href="#"><i class="ri-twitter-fill"></i></a>
+        <a href="#"><i class="ri-youtube-fill"></i></a>
+        <a href="#"><i class="ri-instagram-fill"></i></a>
+        <a href="#"><i class="ri-whatsapp-fill"></i></a>
+      </div>
+      <p>
+        Copyright &copy; 2012 - 2024 Shalakha Foundation. All rights reserved.
+      </p>
     </div>
-</footer>
+  </footer>
 `;
   }
 }
@@ -1246,90 +1251,96 @@ class OutFooter extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <footer class="footer">
-        <div class="footer-left">
-            <img src="./images/keystone.png"
-                alt="" />
-            <p>
-                Keystone School Of Engineering, <br />
-                Near Handewadi Chowk, <br />
-                Urali Devachi,
-                Shewalewadi, <br />
-                Pune – 412308
-            </p>
+      <div class="footer-left">
+        <img src="../images/keystone.png" alt="" />
+        <p>
+          Keystone School Of Engineering, <br />
+          Near Handewadi Chowk, <br />
+          Urali Devachi, Shewalewadi, <br />
+          Pune – 412308
+        </p>
+      </div>
+      <ul class="footer-right">
+        <li>
+          <h2>About Keystone</h2>
+          <ul class="footer-box">
+            <li>
+              <a href="./about/collegeprofile.html">Vision Mission</a>
+            </li>
+            <li>
+              <a href="#">Recognition</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h2>Admission</h2>
+          <ul class="footer-box">
+            <li>
+              <a href="./admission/brochure.html">Admission Brochure</a>
+            </li>
+            <li>
+              <a href="./admission/feestruct.html">Fee Structure</a>
+            </li>
+            <li>
+              <a href="./admission/procedure.html"
+                >Admission Instruction and Procedure</a
+              >
+            </li>
+            <li>
+              <a href="./admission/notice.html">Notices</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <h2>Placement</h2>
+          <ul class="footer-box">
+            <li>
+              <a href="./index.html/#recruiters-div">Our Recruiters</a>
+            </li>
+            <li>
+              <a href="./t&p/preplacement.html">Placements</a>
+            </li>
+            <li>
+              <a href="./t&p/preplacement.html">Training</a>
+            </li>
+            <!-- <li>
+              <a href="../AIDS/results.html"> Top Rankers</a>
+            </li> -->
+          </ul>
+        </li>
+        <li>
+          <h2>Life At Keystone</h2>
+          <ul class="footer-box">
+            <li>
+              <a href="#">Cultural Events</a>
+            </li>
+            <li>
+              <a href="#">Sports</a>
+            </li>
+            <li>
+              <a href="#">Keystone Drama Club</a>
+            </li>
+            <li>
+              <a href="#"> NSS </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <div class="footer-bottom">
+        <div class="social">
+          <a href="./contactus.html" class="contactcl">Contact Us</a>
         </div>
-        <ul class="footer-right">
-            <li>
-                <h2>List 1</h2>
-                <ul class="footer-box">
-                    <li>
-                        <a href="./AIDS/about.html">About Department</a>
-                    </li>
-                    <li>
-                        <a href="./AIDS/hod.html">From the Desk of HOD</a>
-                    </li>
-                    <li>
-                        <a href="./AIDS/faculty.html">Faculty</a>
-                    </li>
-                    <li>
-                        <a href="./AIDS/syllabus.html">Syllabus</a>
-                    </li>
-                    <li>
-                        <a href="./AIDS/labs.html">Laboratories</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <h2>List 2</h2>
-                <ul class="footer-box">
-                    <li>
-                        <a href="./AIDS/timetables.html">Timetables</a>
-                    </li>
-                    <li>
-                        <a href="./AIDS/association.html">Student Associations</a>
-                    </li>
-                    <li>
-                        <a href="./AIDS/studentclubs.html">Student Clubs</a>
-                    </li>
-                    <li>
-                        <a href="./AIDS/results.html"> Top Rankers</a>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <h2>List 3</h2>
-                <ul class="footer-box">
-                    <li>
-                        <a href="./AIDS/timetables.html">Timetables</a>
-                    </li>
-                    <li>
-                        <a href="./AIDS/association.html">Student Associations</a>
-                    </li>
-                    <li>
-                        <a href="./AIDS/studentclubs.html">Student Clubs</a>
-                    </li>
-                    <li>
-                        <a href="./AIDS/results.html"> Top Rankers</a>
-                    </li>
-                </ul>
-            </li>
-           
-        </ul>
-        <div class="footer-bottom">
-            
-            <div class="social">
-            <a href="./contactus.html" class="contactcl">Contact Us</a></h2>
-            </div>
-            <div class="socials">
-                <a href="#"><i class="ri-facebook-fill"></i> </a>
-                <a href="#"><i class="ri-twitter-fill"></i></a>
-                <a href="#"><i class="ri-youtube-fill"></i></a>
-                <a href="#"><i class="ri-instagram-fill"></i></a>
-                <a href="#"><i class="ri-whatsapp-fill"></i></a>
-            </div>
-            <p>
-                Copyright &copy; 2012 - 2024 Shalakha Foundation. All rights reserved.
-            </p>
+        <div class="socials">
+          <a href="#"><i class="ri-facebook-fill"></i> </a>
+          <a href="#"><i class="ri-twitter-fill"></i></a>
+          <a href="#"><i class="ri-youtube-fill"></i></a>
+          <a href="#"><i class="ri-instagram-fill"></i></a>
+          <a href="#"><i class="ri-whatsapp-fill"></i></a>
         </div>
+        <p>
+          Copyright &copy; 2012 - 2024 Shalakha Foundation. All rights reserved.
+        </p>
+      </div>
     </footer>`;
   }
 }

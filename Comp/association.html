@@ -404,31 +404,14 @@
     </section>
     <div class="gallery">
       <h1 id="prog-title">Our Event Gallery</h1>
-      <ul class="controls">
-        <li class="buttons active" data-filter="all">all</li>
-        <li class="buttons" data-filter="cybersecurity">
-          Student Seminar on Cyber Security
-        </li>
-        <li class="buttons" data-filter="graffiti">
-          Graffiti (Wall Art) Contest
-        </li>
-        <li class="buttons" data-filter="clean">Clean Campus Drive</li>
-        <li class="buttons" data-filter="firstaid">Awareness on First Aid</li>
-        <li class="buttons" data-filter="rangoli">Rangoli Competition</li>
-        <li class="buttons" data-filter="diya">Diya Decorating Competition</li>
-        <li class="buttons" data-filter="poster">Poster Making Competition</li>
-        <li class="buttons" data-filter="drone">
-          Drone Making and Web 3.0 Workshop
-        </li>
-      </ul>
 
       <div class="galimage-container">
-        <a
+        <!-- <a
           href="../ACES EVENT/cybersecurity/cs1.jpeg"
           class="galimage cybersecurity"
         >
           <img src="../ACES EVENT/cybersecurity/cs1.jpeg" alt="" />
-        </a>
+        </a> -->
 
         <a
           href="../ACES EVENT/cybersecurity/cs2.jpeg"
@@ -528,9 +511,9 @@
         >
           <img src="../ACES EVENT/first aid/firstaid6.jpeg" alt="" />
         </a>
-        <a href="../ACES EVENT/Poster Making/p01.jpeg" class="galimage poster">
+        <!-- <a href="../ACES EVENT/Poster Making/p01.jpeg" class="galimage poster">
           <img src="../ACES EVENT/Poster Making/p01.jpeg" alt="" />
-        </a>
+        </a> -->
         <a href="../ACES EVENT/Poster Making/p02.jpeg" class="galimage poster">
           <img src="../ACES EVENT/Poster Making/p02.jpeg" alt="" />
         </a>
@@ -585,9 +568,9 @@
         <a href="../ACES EVENT/Poster Making/p16.jpeg" class="galimage poster">
           <img src="../ACES EVENT/Poster Making/p16.jpeg" alt="" />
         </a>
-        <a href="../ACES EVENT/Rangoli/r0.jpeg" class="galimage rangoli">
+        <!-- <a href="../ACES EVENT/Rangoli/r0.jpeg" class="galimage rangoli">
           <img src="../ACES EVENT/Rangoli/r0.jpeg" alt="" />
-        </a>
+        </a> -->
         <a href="../ACES EVENT/Rangoli/R1.jpeg" class="galimage rangoli">
           <img src="../ACES EVENT/Rangoli/R1.jpeg" alt="" />
         </a>
@@ -621,9 +604,9 @@
         <a href="../ACES EVENT/Diya/D5.jpeg" class="galimage diya">
           <img src="../ACES EVENT/Diya/D5.jpeg" alt="" />
         </a>
-        <a href="../ACES EVENT/Drone/d1.jpeg" class="galimage drone">
+        <!-- <a href="../ACES EVENT/Drone/d1.jpeg" class="galimage drone">
           <img src="../ACES EVENT/Drone/d1.jpeg" alt="" />
-        </a>
+        </a> -->
         <a href="../ACES EVENT/Drone/d2.jpeg" class="galimage drone">
           <img src="../ACES EVENT/Drone/d2.jpeg" alt="" />
         </a>
@@ -634,6 +617,16 @@
           <img src="../ACES EVENT/Drone/d4.jpeg" alt="" />
         </a>
       </div>
+      <ul class="controls">
+        <li class="buttons active" data-filter="cybersecurity">1</li>
+        <li class="buttons" data-filter="graffiti">2</li>
+        <li class="buttons" data-filter="clean">3</li>
+        <li class="buttons" data-filter="firstaid">4</li>
+        <li class="buttons" data-filter="rangoli">5</li>
+        <li class="buttons" data-filter="diya">6</li>
+        <li class="buttons" data-filter="poster">7</li>
+        <li class="buttons" data-filter="drone">8</li>
+      </ul>
     </div>
     <inn-footer></inn-footer>
 
@@ -662,6 +655,8 @@
     </script>
     <script>
       $(document).ready(function () {
+        $(".buttons[data-filter='cybersecurity']").addClass("active"); // Add this line to make the filter 1 active by default
+        $(".galimage").not(".cybersecurity").hide();
         $(".buttons").click(function () {
           $(this).addClass("active").siblings().removeClass("active");
 

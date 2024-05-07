@@ -1447,7 +1447,7 @@ a {
   transition: 0.5s;
   border-radius: 20px;
 }
-
+#login-popup::-webkit-scrollbar,
 #somansir-popup::-webkit-scrollbar,
 #milindjoshi-popup::-webkit-scrollbar,
 #prashantkasabe-popup::-webkit-scrollbar,
@@ -1718,8 +1718,9 @@ a {
   align-items: center;
   appearance: none;
   background-color: #fff;
-  border-radius: 1rem;
+  border-radius: 50%;
   border-style: none;
+  border: 1px solid var(--title-color);
   box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px,
     rgba(0, 0, 0, 0.14) 0 6px 10px 0, rgba(0, 0, 0, 0.12) 0 1px 18px 0;
   box-sizing: border-box;
@@ -1730,13 +1731,13 @@ a {
   font-family: var(--body-font);
   font-size: 14px;
   font-weight: 500;
-  height: 48px;
+  height: 30px;
   justify-content: center;
   letter-spacing: 0.25px;
   line-height: normal;
-  max-width: max-content;
+  /* max-width: max-content; */
   overflow: visible;
-  padding: 2px 24px;
+  padding: 2px 2px;
   position: relative;
   text-align: center;
   text-transform: none;
@@ -1745,7 +1746,7 @@ a {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: auto;
+  width: 30px;
   will-change: transform, opacity;
   z-index: 0;
 }
@@ -2191,17 +2192,17 @@ a {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  padding: 20px 0;
+  /* padding: 20px 0; */
   list-style: none;
 }
 
 .gallery .controls .buttons {
-  height: 40px;
-  width: max-content;
+  height: 30px;
+  width: 30px;
   background: #fff;
-  padding: 15px;
-  padding-top: 10px;
-  border-radius: 20px;
+  /* padding: 15px; */
+  /* padding-top: 10px; */
+  border-radius: 50%;
   color: #666;
   font-size: 20px;
   /* line-height: 40px; */
@@ -2209,6 +2210,7 @@ a {
   margin: 20px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
   text-align: center;
+  border: none;
 }
 
 .gallery .controls .buttons.active {

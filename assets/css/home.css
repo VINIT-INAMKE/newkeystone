@@ -189,7 +189,7 @@
 #programmes {
   margin-top: 2vw;
   margin-bottom: 2vw;
-  background-color: var(--first-color-lighten);
+  background-color: #bad8f1;
   padding: 3.5rem;
 }
 
@@ -212,7 +212,7 @@
 
 .programme {
   padding: 20px 20px 20px 20px;
-  background-color: #00c3ffe7;
+  background-color: var(--body-color);
   border-radius: 30px;
   display: flex;
   justify-content: center;
