@@ -115,11 +115,7 @@ class OutHeader extends HTMLElement {
                       >Admission Notice</a
                     >
                   </li>
-                  <li>
-                    <a href="./admission/notice.html" class="dropdown__link"
-                      >Contact Details</a
-                    >
-                  </li>
+                  
                 </ul>
               </div>
             </div>
@@ -288,7 +284,7 @@ class OutHeader extends HTMLElement {
                     >
                   </li>
                   <li>
-                    <a href="../FE/about.html" class="dropdown__link">
+                    <a href="./FE/academiccalender.html" class="dropdown__link">
                       Academic Calender
                     </a>
                   </li>
@@ -467,7 +463,7 @@ class OutHeader extends HTMLElement {
                     >
                   </li>
                   <li>
-                    <a href="../Mechanical/about.html" class="dropdown__link">
+                    <a href="./Mechanical/academiccalender.html" class="dropdown__link">
                       Academic Calender
                     </a>
                   </li>
@@ -669,11 +665,7 @@ class InHeader extends HTMLElement {
                       >Admission Notice</a
                     >
                   </li>
-                  <li>
-                    <a href="../admission/notice.html" class="dropdown__link"
-                      >Contact Details</a
-                    >
-                  </li>
+                 
                 </ul>
               </div>
             </div>
@@ -848,7 +840,7 @@ class InHeader extends HTMLElement {
                     >
                   </li>
                   <li>
-                    <a href="../FE/about.html" class="dropdown__link">
+                    <a href="../FE/academiccalender.html" class="dropdown__link">
                       Academic Calender
                     </a>
                   </li>
@@ -1030,7 +1022,7 @@ class InHeader extends HTMLElement {
                     >
                   </li>
                   <li>
-                    <a href="../Mechanical/about.html" class="dropdown__link">
+                    <a href="../Mechanical/academiccalender.html" class="dropdown__link">
                       Academic Calender
                     </a>
                   </li>
