@@ -76,7 +76,7 @@ class OutHeader extends HTMLElement {
                   <i class="ri-community-line"></i>
                 </div>
   
-                <span class="dropdown__title">First Year Admissions</span>
+                <span class="dropdown__title">Admission Cell</span>
   
                 <ul class="dropdown__list">
                   <li>
@@ -115,6 +115,11 @@ class OutHeader extends HTMLElement {
                       >Admission Notice</a
                     >
                   </li>
+                  <li>
+                  <a href="./admission/enquiry.html" class="dropdown__link"
+                    >Admission Enquiry</a
+                  >
+                </li>
                   
                 </ul>
               </div>
@@ -626,7 +631,7 @@ class InHeader extends HTMLElement {
                   <i class="ri-community-line"></i>
                 </div>
   
-                <span class="dropdown__title">First Year Admissions</span>
+                <span class="dropdown__title">Admission Cell</span>
   
                 <ul class="dropdown__list">
                   <li>
@@ -665,7 +670,14 @@ class InHeader extends HTMLElement {
                       >Admission Notice</a
                     >
                   </li>
-                 
+                  <li>
+                  <a
+                    href="../admission/enquiry.html"
+                    class="dropdown__link"
+                  >
+                    Admission Enquiry
+                  </a>
+                </li>
                 </ul>
               </div>
             </div>
@@ -1152,6 +1164,9 @@ class InFooter extends HTMLElement {
           <li>
             <a href="../admission/notice.html">Notices</a>
           </li>
+          <li>
+          <a href="../admission/enquiry.html">Enquiry</a>
+        </li>
         </ul>
       </li>
       <li>
@@ -1251,6 +1266,9 @@ class OutFooter extends HTMLElement {
             <li>
               <a href="./admission/notice.html">Notices</a>
             </li>
+            <li>
+            <a href="./admission/enquiry.html">Enquiry</a>
+          </li>
           </ul>
         </li>
         <li>

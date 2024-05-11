@@ -240,7 +240,7 @@
 
           <div class="galimage-container">
             <a href="./home-images/1.jpeg" class="galimage 1">
-              <img src="./home-images/1.jpeg" alt="" />
+              <img src="./home-images/1.jpeg" alt="Image 1" />
             </a>
 
             <a href="./home-images/2.jpeg" class="galimage 1">
@@ -495,7 +495,7 @@
                   </div>
 
                   <div id="adm-cont">
-                    <button type="submit" class="adm-button">Submit</button>
+                    <button type="submit" class="adm-button1">Submit</button>
                   </div>
                 </form>
               </section>
@@ -587,6 +587,13 @@
           type: "image",
           gallery: {
             enabled: true,
+          },
+          callbacks: {
+            open: function () {
+              var altText = this.currItem.el.find("img").attr("alt");
+
+              this.content.find(".mfp-title").text(altText);
+            },
           },
         });
       });
