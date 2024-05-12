@@ -4,7 +4,8 @@ class OutHeader extends HTMLElement {
     <div class="nav__data">
       <a href="/" class="nav__logo">
         <img src="./images/keystone_logo.webp" alt="" />
-        <img src="./images/keystonename.webp" alt="" class="logo-2" />
+        <img src="./images/keystonename.webp" alt="" class="logo-2" /> 
+        <img src="./images/naac.webp" alt=""  />
       </a>
       <!-- <img class="naac" src="./images/naac.jpg" alt="" /> -->
       <div class="nav__toggle" id="nav-toggle">
@@ -560,6 +561,7 @@ class InHeader extends HTMLElement {
       <a href="/" class="nav__logo">
         <img src="../images/keystone_logo.webp" alt="" />
         <img src="../images/keystonename.webp" alt="" class="logo-2" />
+        <img src="./images/naac.webp" alt=""  />
       </a>
       <!-- <img class="naac" src="../images/naac.jpg" alt="" /> -->
       <div class="nav__toggle" id="nav-toggle">
@@ -1196,7 +1198,7 @@ class InFooter extends HTMLElement {
             <a href="#">Sports</a>
           </li>
           <li>
-            <a href="#">Keystone Drama Club</a>
+            <a href="../dramaclub.html">Keystone Drama Club</a>
           </li>
           <li>
             <a href="#"> NSS </a>
@@ -1298,7 +1300,7 @@ class OutFooter extends HTMLElement {
               <a href="#">Sports</a>
             </li>
             <li>
-              <a href="#">Keystone Drama Club</a>
+              <a href="./dramaclub.html">Keystone Drama Club</a>
             </li>
             <li>
               <a href="#"> NSS </a>

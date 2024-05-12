@@ -194,7 +194,9 @@
 }
 
 #programmes h1#prog-title,
-.gallery h1#prog-title {
+.gallery h1#prog-title,
+.place-title,
+.drama-title {
   font-size: 4vmin;
   text-align: center;
   color: var(--title-color);
@@ -464,7 +466,9 @@
 
 @media (max-width: 450px) {
   #programmes h1#prog-title,
-  .gallery h1#prog-title {
+  .gallery h1#prog-title,
+  .place-title,
+  .drama-title {
     font-size: 8vmin;
   }
 
@@ -504,7 +508,9 @@
   }
 
   #programmes h1#prog-title,
-  .gallery h1#prog-title {
+  .gallery h1#prog-title,
+  .place-title,
+  .drama-title {
     font-size: 6vmin;
   }
 
