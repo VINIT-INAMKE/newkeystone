@@ -367,6 +367,16 @@ class OutHeader extends HTMLElement {
                     >
                   </li>
                   <li>
+                  <a href="./Comp/collegemagazine.html" class="dropdown__link"
+                    >College Magazine 1</a
+                  >
+                </li>
+                <li>
+                <a href="./Comp/collegemagazine1.html" class="dropdown__link"
+                  >College Magazine 2</a
+                >
+              </li>
+                  <li>
                     <a href="./Comp/results.html" class="dropdown__link">
                       Top Rankers</a
                     >
@@ -932,6 +942,16 @@ class InHeader extends HTMLElement {
                       >Student Clubs</a
                     >
                   </li>
+                  <li>
+                  <a href="../Comp/collegemagazine.html" class="dropdown__link"
+                    >College Magazine 1</a
+                  >
+                </li>
+                <li>
+                <a href="../Comp/collegemagazine1.html" class="dropdown__link"
+                  >College Magazine 2</a
+                >
+              </li>
                   <li>
                     <a href="../Comp/results.html" class="dropdown__link">
                       Top Rankers</a
