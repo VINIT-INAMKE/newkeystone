@@ -3,9 +3,8 @@ class OutHeader extends HTMLElement {
     this.innerHTML = `<nav class="nav container">
     <div class="nav__data">
       <a href="/" class="nav__logo">
-        <img src="./images/keystone_logo.webp" alt="" />
-        <img src="./images/keystonename.webp" alt="" class="logo-2" /> 
-        <img src="./images/naac.webp" alt=""  />
+        <img src="./images/kslogo.png" alt="" />
+
       </a>
       <!-- <img class="naac" src="./images/naac.jpg" alt="" /> -->
       <div class="nav__toggle" id="nav-toggle">
@@ -559,9 +558,8 @@ class InHeader extends HTMLElement {
     this.innerHTML = `<nav class="nav container">
     <div class="nav__data">
       <a href="/" class="nav__logo">
-        <img src="../images/keystone_logo.webp" alt="" />
-        <img src="../images/keystonename.webp" alt="" class="logo-2" />
-        <img src="./images/naac.webp" alt=""  />
+        <img src="../images/kslogo.png" alt="" />
+    
       </a>
       <!-- <img class="naac" src="../images/naac.jpg" alt="" /> -->
       <div class="nav__toggle" id="nav-toggle">
