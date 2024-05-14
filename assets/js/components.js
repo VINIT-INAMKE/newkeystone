@@ -235,7 +235,7 @@ class OutHeader extends HTMLElement {
                     <a href="#" class="dropdown__link"> Industrial Visit </a>
                   </li>
                   <li>
-                    <a href="#" class="dropdown__link">Internships</a>
+                    <a href="./industryconnect/internship.html" class="dropdown__link">Internships</a>
                   </li>
                   <li>
                     <a href="#" class="dropdown__link">Training</a>
@@ -306,7 +306,7 @@ class OutHeader extends HTMLElement {
   
                   <li>
                     <a href="./FE/results.html" class="dropdown__link">
-                      Top Rankers</a
+                      Academic Toppers</a
                     >
                   </li>
                 </ul>
@@ -374,7 +374,7 @@ class OutHeader extends HTMLElement {
                
                   <li>
                     <a href="./Comp/results.html" class="dropdown__link">
-                      Top Rankers</a
+                      Academic Toppers</a
                     >
                   </li>
                 </ul>
@@ -434,7 +434,7 @@ class OutHeader extends HTMLElement {
   
                   <li>
                     <a href="./ENTC/results.html" class="dropdown__link">
-                      Top Rankers</a
+                      Academic Toppers</a
                     >
                   </li>
                 </ul>
@@ -491,7 +491,7 @@ class OutHeader extends HTMLElement {
   
                   <li>
                     <a href="./Mechanical/results.html" class="dropdown__link">
-                      Top Rankers</a
+                      Academic Toppers</a
                     >
                   </li>
                 </ul>
@@ -546,7 +546,7 @@ class OutHeader extends HTMLElement {
                                           </li>
                                           <li>
                                               <a href="./AIDS/results.html" class="dropdown__link">
-                                                  Top Rankers</a>
+                                                  Academic Toppers</a>
                                           </li> -->
                 </ul>
               </div>
@@ -802,7 +802,7 @@ class InHeader extends HTMLElement {
                     <a href="#" class="dropdown__link"> Industrial Visit </a>
                   </li>
                   <li>
-                    <a href="#" class="dropdown__link">Internships</a>
+                    <a href="./industryconnect/internship.html" class="dropdown__link">Internships</a>
                   </li>
                   <li>
                     <a href="#" class="dropdown__link">Training</a>
@@ -875,7 +875,7 @@ class InHeader extends HTMLElement {
   
                   <li>
                     <a href="../FE/results.html" class="dropdown__link">
-                      Top Rankers</a
+                      Academic Toppers</a
                     >
                   </li>
                 </ul>
@@ -946,7 +946,7 @@ class InHeader extends HTMLElement {
               
                   <li>
                     <a href="../Comp/results.html" class="dropdown__link">
-                      Top Rankers</a
+                      Academic Toppers</a
                     >
                   </li>
                 </ul>
@@ -1006,7 +1006,7 @@ class InHeader extends HTMLElement {
   
                   <li>
                     <a href="../ENTC/results.html" class="dropdown__link">
-                      Top Rankers</a
+                      Academic Toppers</a
                     >
                   </li>
                 </ul>
@@ -1065,7 +1065,7 @@ class InHeader extends HTMLElement {
   
                   <li>
                     <a href="../Mechanical/results.html" class="dropdown__link">
-                      Top Rankers</a
+                      Academic Toppers</a
                     >
                   </li>
                 </ul>
@@ -1120,7 +1120,7 @@ class InHeader extends HTMLElement {
                                                 </li>
                                                 <li>
                                                     <a href="../AIDS/results.html" class="dropdown__link">
-                                                        Top Rankers</a>
+                                                        Academic Toppers</a>
                                                 </li> -->
                 </ul>
               </div>
@@ -1194,7 +1194,7 @@ class InFooter extends HTMLElement {
             <a href="../t&p/preplacement.html">Training</a>
           </li>
           <!-- <li>
-            <a href="../AIDS/results.html"> Top Rankers</a>
+            <a href="../AIDS/results.html"> Academic Toppers</a>
           </li> -->
         </ul>
       </li>
@@ -1296,7 +1296,7 @@ class OutFooter extends HTMLElement {
               <a href="./t&p/preplacement.html">Training</a>
             </li>
             <!-- <li>
-              <a href="../AIDS/results.html"> Top Rankers</a>
+              <a href="../AIDS/results.html"> Academic Toppers</a>
             </li> -->
           </ul>
         </li>
