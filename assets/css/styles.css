@@ -412,7 +412,6 @@ a {
   font-size: var(--title-font-size);
   color: var(--title-color);
   font-weight: 900;
-  padding-bottom: 20px;
 }
 
 .hodrow .hodcontentWrapper p {
