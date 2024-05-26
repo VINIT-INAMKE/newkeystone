@@ -258,7 +258,7 @@ class OutHeader extends HTMLElement {
 
                   <ul class="dropdown__list">
                     <li>
-                      <a href="#" class="dropdown__link"> MOU </a>
+                      <a href="./industryconnect/mou.html" class="dropdown__link"> MOU </a>
                     </li>
                     <li>
                       <a
@@ -886,7 +886,7 @@ class InHeader extends HTMLElement {
 
                   <ul class="dropdown__list">
                     <li>
-                      <a href="#" class="dropdown__link"> MOU </a>
+                      <a href="../industryconnect/mou.html" class="dropdown__link"> MOU </a>
                     </li>
                     <li>
                       <a
